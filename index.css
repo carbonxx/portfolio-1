@@ -1,40 +1,89 @@
 @font-face{
-    src: url(holimount.regular.otf);
+    src: url(fonts/holimount.regular.otf);
     font-family: holimount;
 }
 
 @font-face{
-    src: url(raleway.extrabold.ttf);
+    src: url(fonts/raleway.extrabold.ttf);
     font-family: raleway;
 }
 
+@font-face{
+    src: url(fonts/holimount.regular.otf);
+    font-family : impacth ;
+}
+
 body{
-    padding : 0% 15% 0% 15%;
-    margin : 0 ;
+    background-image: url(background.jpg);
+    margin: 0%;
+}
+
+#main{
+    margin : 6%;
+}
+
+#firsthalf{
+    padding : 7% 10% 5% 10% ;
     background-color: #f5f5f5;
 }
 
-#Navbar{
-    margin: 30px;
+#header{
     display : flex;
+    align-items : center;
+    padding : 0% 0% 2% 0%;
+    justify-content: space-between;
 }
 
-#Logo{
-    padding : 0% 4% 0% 0%;
+#h1{
+    display: flex;;
 }
 
-#Name{
-    margin : 2% 0% 2% 0% ;
-    padding : 0% 0% 0% 4% ;
-    font-family: holimount ;
-    font-size: 160%;
-    border-left: 2px #30f973 solid;
+#logo{
+    padding : 0% 5% 0% 0% ;
+}
+
+#name{
+    border-left : solid #363636 2px;
+    margin : 4% 0% 4% 0%;
+    padding : 0% 0% 0% 5%;
+    font-family : holimount ;
+    font-size : 170% ;
+}
+
+#h_project{
+    font-family: raleway;
+    font-size: 200%;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
     color: #363636;
 }
 
-#Greetings{
-    margin : 4% 0% 4% 0% ;
-    padding : 1% 19% 1% 19% ; 
-    font-family: raleway ;
-    font-size : 150% ;
+a:hover{
+    text-decoration: none;
+    color: #00e84e;
 }
+
+#about_me{
+    font-family: raleway;
+    padding : 8% 20% 8% 20%;
+    font-size: 150%;
+}
+
+.heading{
+    font-size : 200%;
+}
+
+#projects{
+    background-color: #363636;
+    font-family: raleway;
+    color: #f5f5f5;
+    font-size: 170%;
+    padding : 7% 10% 7% 10% ;
+}
+
